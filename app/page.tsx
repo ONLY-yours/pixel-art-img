@@ -1,10 +1,10 @@
 "use client"
-import { ImageTransformer } from "@/components/image-transformer";
+import { ImageTransformerCrt } from "@/components/image-transformer-crt";
 
 export default function Home() {
   return (
     <div>
-      <ImageTransformer/>
+      <ImageTransformerCrt/>
     </div>
   );
 }
